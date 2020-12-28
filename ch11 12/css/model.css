@@ -1,0 +1,29 @@
+.model {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+   /* 
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+.model .content{
+    width: 400px;
+    height: 250px;
+    background-color: blue;
+    font-size: 30px;
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}

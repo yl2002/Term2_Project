@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!--iconfont.css-->
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/starRate.css">
+</head>
+<body>
+    <div class="box1">
+
+    </div>
+    <div class="box2">
+
+    </div>
+    <div class="box3">
+
+    </div>
+    
+    <!--jquery.min.js-->
+    <script src="./js/jquery-1.11.0.js"></script>
+    <script src="./js/starRate.js"></script>
+    <script>
+        $(function () {
+         var star1 = createStarRate(3.6);
+         $('.box1').html(star1);
+         // $('.box1').createStarRate(3.6);
+
+
+        })
+        
+    </script>
+</body>
+</html>
